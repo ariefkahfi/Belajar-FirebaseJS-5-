@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Update Produk</title>
+</head>
+<body>
+    <form method="POST">
+        <table>
+            <tr>
+                <td>Kode Produk</td>
+                <td><input type="text" name="kodeProduk" id="kodeUpdate" placeholder="Kode Produk"/></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button style="width: 100%;" value="Cek Kode Produk" id="cekProduk">Cek Produk</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Nama Produk</td>
+                <td><input type="text" name="namaProduk" id="namaUpdate" placeholder="Nama Produk"/></td>
+            </tr>
+            <tr>
+                <td>Harga Produk</td>
+                <td><input type="number" name="hargaProduk" id="hargaUpdate" placeholder="Harga Produk"/></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button value="Submit Update Produk" id="submitUpdate">Submit Update Produk</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+    <script src="../dist/MainFirebase.js"></script>
+</html>

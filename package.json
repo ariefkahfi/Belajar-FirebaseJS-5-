@@ -1,0 +1,22 @@
+{
+  "name": "belajarfirebaseupdatedelete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/js/MainFirebase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go" :"webpack && firebase serve",
+    "compile":"webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "firebase": "^4.5.1",
+    "jquery": "^3.2.1",
+    "request": "^2.83.0",
+    "webpack": "^3.7.1"
+  }
+}

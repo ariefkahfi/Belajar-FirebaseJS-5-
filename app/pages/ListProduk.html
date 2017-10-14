@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Produk</title>
+</head>
+<body>
+    <table id="table-produk" border="2">
+        <tr>
+            <td>Kode Produk</td>
+            <td>Nama Produk</td>
+            <td>Harga Produk</td>
+        </tr>
+    </table>
+    <form method="POST">
+        <table>
+            <tr>
+                <td>Kode produk yang akan dihapus</td>
+                <td><input type="text" id="deleteKode" placeholder="kode produk" required/></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button id="deleteButton" value="Delete">Delete Produk</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+    <script src="../dist/MainFirebase.js"></script>
+</html>

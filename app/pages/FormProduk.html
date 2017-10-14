@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Produk</title>
+</head>
+<body>
+
+    <form method="POST">
+       <table>
+           <tr>
+               <td>Kode Produk</td>
+               <td><input type="text" name="kodeProduk" id="kodeP" placeholder="Kode Produk"/></td>
+           </tr>
+           <tr>
+               <td>Nama Produk</td>
+               <td><input type="text" name="namaProduk" id="namaP" placeholder="Nama Produk"/></td>
+           </tr>
+           <tr>
+               <td>Harga Produk</td>
+               <td><input type="number" name="hargaProduk" id="hargaP" placeholder="Harga Produk"/></td>
+           </tr>
+           <tr>
+               <td colspan="2">
+                 <button value="Submit Produk" id="submitData">Submit Produk</button>
+               </td>
+           </tr>
+       </table>
+    </form>
+</body>
+    <script src="../dist/MainFirebase.js"></script>
+</html>
